@@ -4,7 +4,7 @@
 **Date de création :** 15/10/2025  
 
 ---
-![Logo CUB](../Images/CUB.png)
+![Logo CUB](../../Images/CUB.png)
 
 # Administration des systèmes
 
@@ -53,13 +53,13 @@
 ---
 ## Schéma Logique
 
-![Schéma logique](../Images/SchémaLogique.png)
+![Schéma logique](../../Images/SchémaLogique.png)
 
 ---
 
 ## Schéma Physique
 
-![Schéma physique](../Images/SchémaPhysique.png)
+![Schéma physique](../../Images/SchémaPhysique.png)
 
 ---
 
