@@ -13,7 +13,7 @@
 
 ## **Partie 1 : Réaliser un nouveau schéma logique** {#partie-1-:-réaliser-un-nouveau-schéma-logique}
 
-![Logo Schéma Logique](Images/Schéma Logique2.png)
+![Logo Schéma Logique](Images/SchémaLogique2.png)
 
 ## **Partie 2 : Installation et paramétrage du serveur DNS Récursif** {#partie-2-:-installation-et-paramétrage-du-serveur-dns-récursif}
 
