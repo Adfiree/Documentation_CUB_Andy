@@ -9,33 +9,19 @@
 # Administration et exploitation des services
 
 ## Sommaire
-
-# **Table des matières** {#table-des-matières}
-
 ---
-
 **[Table des matières	2](#table-des-matières)**
 
 [**Activité 1 \- Mise en place de serveur DNS au sein de l’entreprise CUB	3**](#activité-1---mise-en-place-de-serveur-dns-au-sein-de-l’entreprise-cub)
-
 [Partie 1 : Réaliser un nouveau schéma logique	3](#partie-1-:-réaliser-un-nouveau-schéma-logique)
-
 [Partie 2 : Installation et paramétrage du serveur DNS Récursif	4](#partie-2-:-installation-et-paramétrage-du-serveur-dns-récursif)
-
 [1\. Vérification préalable	4](#1.-vérification-préalable)
-
 [2\. Définir les paramètres réseaux du serveur	5](#2.-définir-les-paramètres-réseaux-du-serveur)
-
 [3\. Définir le serveur DNS récursif à utiliser	5](#3.-définir-le-serveur-dns-récursif-à-utiliser)
-
 [4\. Prendre en compte les modifications des paramètres réseaux	5](#4.-prendre-en-compte-les-modifications-des-paramètres-réseaux)
-
 [5\. Configurer correctement les fichiers /etc/hostname et /etc/hosts	6](#5.-configurer-correctement-les-fichiers-/etc/hostname-et-/etc/hosts)
-
 [6\. Installer Unbound et les outils d'administration appropriés	6](#6.-installer-unbound-et-les-outils-d'administration-appropriés)
-
 [7\. Configurer Unbound	7](#7.-configurer-unbound)
-
 [Partie 3 : Test du serveur DNS Récursif	10](#partie-3-:-test-du-serveur-dns-récursif)
 
 # 
