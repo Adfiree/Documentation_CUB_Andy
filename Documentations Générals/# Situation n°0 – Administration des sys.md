@@ -4,7 +4,7 @@
 **Date de création :** 15/10/2025  
 
 ---
-![Logo CUB](Images/CUB.png)
+![Logo CUB](../Images/CUB.png)
 
 # Administration des systèmes
 
