@@ -11,8 +11,9 @@
 ---
 # **Activité 1 \- Mise en place de serveur DNS au sein de l’entreprise CUB** 
 
-
 ## **Partie 1 : Réaliser un nouveau schéma logique** {#partie-1-:-réaliser-un-nouveau-schéma-logique}
+
+![Logo Schéùa ogique](../../images/SchémaLogique2)
 
 ## **Partie 2 : Installation et paramétrage du serveur DNS Récursif** {#partie-2-:-installation-et-paramétrage-du-serveur-dns-récursif}
 
