@@ -51,19 +51,21 @@
 | **Passerelle** | `11000000.10101000.00000001.11001110` | 192.168.1.206 |
 
 ---
-### Schéma Logique
+## Schéma Logique
 
 ![Schéma logique](../Images/SchémaLogique.png)
 
 ---
 
-### Schéma Physique
+## Schéma Physique
 
 ![Schéma physique](../Images/SchémaPhysique.png)
 
 ---
 
-### 🔹 Table de routage – Switch niveau 3
+## 🔹 Table de routage 
+
+### Switch niveau 3
 
 | Type        | Destination     | Masque           | Passerelle      | Interface        |
 |--------------|----------------|------------------|-----------------|------------------|
@@ -75,7 +77,9 @@
 
 ---
 
-### 🔹 Table de routage – Pare-feu
+## 🔹 Table de routage 
+
+### Pare-feu
 
 | Type        | Destination     | Masque           | Passerelle      | Interface        |
 |--------------|----------------|------------------|-----------------|------------------|
