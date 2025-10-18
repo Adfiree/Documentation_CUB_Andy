@@ -8,10 +8,7 @@
 
 # Administration et exploitation des services
 
----
-
 # **Activité 1 \- Mise en place de serveur DNS au sein de l’entreprise CUB** 
-
 
 
 ## **Partie 1 : Réaliser un nouveau schéma logique** {#partie-1-:-réaliser-un-nouveau-schéma-logique}
