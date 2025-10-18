@@ -1,15 +1,14 @@
-**Auteurs :** Andy REMY   
-**Date de création :** 02 / 10 / 2025
+# Serveur DNS Recursif
 
-**Serveur Récursif DNS**
+**Auteur :** Andy REMY  
+**Date de création :** 02/10/2025  
 
-**![][image1]**
+---
+![Logo CUB](../../Images/CUB.png)
 
-# 
+# Administration et exploitation des services
 
-**Administration et exploitation des services** 
-
-# 
+## Sommaire
 
 # **Table des matières** {#table-des-matières}
 
