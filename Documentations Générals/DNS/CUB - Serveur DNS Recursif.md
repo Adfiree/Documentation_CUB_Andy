@@ -7,9 +7,6 @@
 
 ![Logo CUB](../../Images/CUB.png)
 
-
-# Serveur Récursif DNS
-
 ## Administration et exploitation des services
 
 ## Table des matières
