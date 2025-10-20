@@ -19,7 +19,7 @@
 
 Pour commencer, une fois ma VM sous nutanix créé, j’ai modifié son adresse IP
 192.168.1.10 et afin qu’il soit également dans le VLAN Production comme demandé.
-![1](../Images/DNS/1.png)
+![1](.../../Images/DNS/1.png)
 Nous pouvons commencer l'installation.
 
 #### 1. Vérification préalable
