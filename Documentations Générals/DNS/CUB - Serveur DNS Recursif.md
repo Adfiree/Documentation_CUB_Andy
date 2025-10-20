@@ -15,6 +15,8 @@
 
 ![Logo Schéma Logique](../../Images/SchémaLogique2.png)
 
+---
+
 ### Partie 2 : Installation et paramétrage du serveur DNS Récursif
 
 Pour commencer, une fois ma VM sous nutanix créé, j’ai modifié son adresse IP
