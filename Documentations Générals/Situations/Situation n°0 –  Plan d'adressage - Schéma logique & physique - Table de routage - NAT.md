@@ -6,7 +6,7 @@
 ---
 ![Logo CUB](../../Images/CUB.png)
 
-# Administration des systèmes
+## Administration des systèmes
 
 ## Sommaire
 1. [Nouveau plan d’adressage](#nouveau-plan-dadressage)
