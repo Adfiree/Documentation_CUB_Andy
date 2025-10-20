@@ -19,7 +19,9 @@
 
 Pour commencer, une fois ma VM sous nutanix créé, j’ai modifié son adresse IP
 192.168.1.10 et afin qu’il soit également dans le VLAN Production comme demandé.
+
 ![1](../../Images/DNS/1.png)
+
 Nous pouvons commencer l'installation.
 
 #### 1. Vérification préalable
@@ -27,22 +29,27 @@ Nous pouvons commencer l'installation.
 Mettez à jour votre serveur
 
 - sudo apt update && sudo apt upgrade
-![2](../Images/DNS/2.png)
+
+![2](../../Images/DNS/2.png)
+
 Sur votre serveur Debian 12, installez le service de journalalisation rsyslog à la place de
 journalctl. Cela vous permettra de disposer de fichiers de log clairs au format texte situés
 dans /var/log.
 - sudo apt install rsyslog
-![3](../Images/DNS/3.png)
+
+![3](../../Images/DNS/3.png)
 
 #### 2. Définir les paramètres réseaux du serveur.
 
 - sudoedit /etc/network/interfaces
-![4](../Images/DNS/4.png)
+
+![4](../../Images/DNS/4.png)
 
 #### 3. Définir le serveur DNS récursif à utiliser
 
 sudoedit /etc/resolv.conf
-![5](../Images/DNS/5.png)
+
+![5](../../Images/DNS/5.png)
 
 
 #### 4. Prendre en compte les modifications des paramètres réseaux
@@ -56,10 +63,12 @@ Le fichier **hostname** sert à donner un nom à votre serveur.
 
 - sudoedit /etc/hostname
 dns0
-![6](../Images/DNS/6.png)
+
+![6](../../Images/DNS/6.png)
 
 - sudoedit /etc/hosts
-![7](../Images/DNS/7.png)
+
+![7](../../Images/DNS/7.png)
 
 Il est nécessaire de redémarrer le serveur pour prendre en compte le changement de nom.
 sudo shutdown -r now
@@ -72,15 +81,17 @@ sudo shutdown -r now
 #### 7. Configurer Unbound
 
 - sudoedit /etc/unbound/unbound.conf
-![8](../Images/DNS/8.png)
+
+![8](../../Images/DNS/8.png)
 
 Il est important de vérifier ensuite que la syntaxe des lignes contenues dans le fichier de
 configuration est correcte. Pour cela, il existe la commande **unbound-checkconf**.
 
 
 - sudo unbound-checkconf
-![9](../Images/DNS/9.png)
-![10](../Images/DNS/10.png)
+
+![9](../../Images/DNS/9.png)
+![10](../../Images/DNS/10.png)
 
 On récupère les adresses des serveurs racines et nous les stockons dans le fichier
 /var/lib/unbound/root.hints. Ce fichier est indispensable et permet au service Unbound de
@@ -105,7 +116,8 @@ ces permissions.
 
 
 - sudoedit /etc/apparmor.d/usr.sbin.unbound
-![11](../Images/DNS/11.png)
+
+![11](../../Images/DNS/11.png)
 
 On vérifie que le nouveau fichier de configuration de AppArmor ne contient pas d’erreurs
 puis on redémarre le service.
@@ -129,8 +141,8 @@ suivante :
 - dig 192.168.1.1 1
 - dig @192.168.1.10 google.com
 
-![12](../Images/DNS/12.png)
-![13](../Images/DNS/13.png)
-![14](../Images/DNS/14.png)
+![12](../../Images/DNS/12.png)
+![13](../../Images/DNS/13.png)
+![14](../../Images/DNS/14.png)
 
 Voilà, notre serveur DNS Récursif est opérationnel !!
